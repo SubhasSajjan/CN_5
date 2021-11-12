@@ -1,0 +1,45 @@
+factorial of Number
+#!/bin/sh
+
+echo "Enter the Number: "
+read num
+sum=1
+
+while [ $num -gt 1 ]
+do
+        sum=$((num * sum))
+        num=$((num - 1))
+done
+echo $sum
+
+
+
+
+Gross_salary
+
+
+#!/bin/sh
+
+
+sal=$1
+hra=$2
+da=$3
+# echo "Enter the ssalary: "
+#read $sal
+#echo "Enter the HRA: "
+#read $hra
+#echo "Enter The DA: "
+#read $da
+t=$(($3 + $2))
+
+echo $t
+p=$((t * $1 / 100))
+echo $p
+ts=$(($1 + p ))
+
+
+echo $ts
+
+
+
+temperature.sh
